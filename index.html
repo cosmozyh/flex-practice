@@ -4,45 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>容器示例</title>
+    <title></title>
+    <script type="text/javascript">
+        document.addEventListener('plusready', function () {
+            // console.log("所有的plus api 都可以使用了");
+        });
+    </script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
     <style>
-        .container {
-            width: 500px;
-            height: 400px;
-            border: 1px solid black;
-            margin: 0 auto;
-            margin-top: 50px;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .item {
-            width: 100px;
-            height: 100px;
-            border: 1px solid #eee;
-            background-color: aqua;
-            display: flex;
-        }
-
-        .item1 {
-            width: 100px;
-            height: 100px;
-            border: 1px solid #eee;
-            background-color: aqua;
-            display: flex;
-        }
     </style>
 </head>
 
 <body>
-
-    <div class="container">
-        <div class="item1">张</div>
-        <div class="item">宇</div>
-        <div class="item">航</div>
-        <div class="item">盒</div>
-        <div class="item">子</div>
+    <div class="search-index">
+        <div class="search">搜索：目的地/酒店/景点/航班</div>
+        <a class="user" href="#">我的</a>
     </div>
+    <div class="focus">
+        <img src="./upload/focus.jpg" />
+    </div>
+
+    <ul class="local-nav">
+        <li>
+            <a href="#">
+                <span class="local-nav-icon-icon1"></span>
+                <span>景点•玩乐</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="local-nav-icon-icon2"></span>
+                <span>酒店•住宿</span>
+            </a>
+        </li>
+    </ul>
+
 
 </body>
 
