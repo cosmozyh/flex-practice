@@ -184,3 +184,27 @@ nav {
   line-height: 44px;
   color: #fff;
 }
+
+.nav-items a:nth-child(1) {
+  border-bottom: 1px solid #fff;
+}
+
+.nav-common:nth-child(2) {
+  background: -webkit-gradient(left, #4b90ed, #53bced);
+}
+
+.nav-items:nth-child(1) a {
+  border: 0;
+  background: url(../images/hotel.png) no-repeat bottom center;
+  background-size: 121px auto;
+}
+
+.nav-common:nth-child(3) {
+  background: -webkit-gradient(left, #34c2a9, #6cd559);
+}
+
+.nav-items:nth-child(1) a {
+  border: 0;
+  background: url(../images/hotel2.png) no-repeat bottom center;
+  background-size: 121px auto;
+}
