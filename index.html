@@ -1,78 +1,209 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>旅游首页 - 景点酒店机票一站式服务</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
     <script type="text/javascript">
-        document.addEventListener('plusready', function () {
-            // console.log("所有的plus api 都可以使用了");
-        });
+    	
+   		document.addEventListener('plusready', function(){
+   			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。")
+   			
+   		});
+   		
     </script>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/index.css">
-    <style>
-    </style>
+	<link rel="stylesheet" href="css/normalize.css"/>
+	<link rel="stylesheet" href="css/index.css"/>
+
 </head>
-
 <body>
-    <div class="search-index">
-        <div class="search">
-            <input type="text" placeholder="搜索：目的地/酒店/景点/航班" aria-label="请输入目的地、酒店、景点或航班进行搜索">
-        </div>
-        <a class="user" href="#">我的</a>
-    </div>
-    <div class="focus">
-        <img src="./upload/focus.jpg" alt="焦点图">
-    </div>
-
-    <ul class="local-nav">
-        <li>
-            <a href="#">
-                <span class="local-nav-icon-icon1"></span>
-                <span>景点•玩乐</span>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <span class="local-nav-icon-icon2"></span>
-                <span>酒店•住宿</span>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <span class="local-nav-icon-icon3"></span>
-                <span>接机•包车</span>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <span class="local-nav-icon-icon4"></span>
-                <span>租车•自驾</span>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <span class="local-nav-icon-icon5"></span>
-                <span>私家团•定制</span>
-            </a>
-        </li>
-    </ul>
-
-    <nav>
-        <div class="nav-common">
-            <div class="nav-items">
-                <a href="#">酒店</a>
-            </div>
-            <div class="nav-items">
-                <a href="#">机票</a>
-            </div>
-            <div class="nav-items">
-                <a href="#">旅行</a>
-            </div>
-        </div>
-    </nav>
+	<div class="search-index">
+		<div class="search">搜索：目的地/酒店/景点/航班</div>
+		<a class="user" href="#">我的</a>
+	</div>
+	<div class="focus">
+	        <img src="img/focus.jpg">
+	</div>
+	 <ul class="local-nav">
+	        <li>
+	            <a href="#">
+	                <span class="local-nav-icon-icon1"></span>
+	                <span>景点·玩乐</span>
+	            </a>
+	        </li>
+	        <li>
+	            <a href="#">
+	                <span class="local-nav-icon-icon2"></span>
+	                <span>景点·玩乐</span>
+	            </a>
+	        </li>
+	        <li>
+	            <a href="#">
+	                <span class="local-nav-icon-icon3"></span>
+	                <span>景点·玩乐</span>
+	            </a>
+	        </li>
+	        <li>
+	            <a href="#">
+	                <span class="local-nav-icon-icon4"></span>
+	                <span>景点·玩乐</span>
+	            </a>
+	        </li>
+	        <li>
+	            <a href="#">
+	                <span class="local-nav-icon-icon5"></span>
+	                <span>景点·玩乐</span>
+	            </a>
+	        </li>
+	    </ul>
+		<nav>
+		    <div class="nav-common">
+		        <div class="nav-items nav-item1">
+		            <a href="#">酒店</a>
+		        </div>
+		        <div class="nav-items">
+		            <a href="#">海外酒店</a>
+		            <a href="#">特价酒店</a>
+		        </div>
+		        <div class="nav-items">
+		            <a href="#">团购</a>
+		            <a href="#">民宿</a>
+		        </div>
+		    </div>
+		    <div class="nav-common">
+		        <div class="nav-items nav-item1">
+		            <a href="#">机票</a>
+		        </div>
+		        <div class="nav-items">
+		            <a href="#">火车票</a>
+		            <a href="#">特价机票</a>
+		        </div>
+		        <div class="nav-items">
+		            <a href="#">船票</a>
+		            <a href="#">租车</a>
+		        </div>
+		    </div>
+		    <div class="nav-common">
+		        <div class="nav-items nav-item1">
+		            <a href="#">旅游</a>
+		        </div>
+		        <div class="nav-items">
+		            <a href="#">门票</a>
+		            <a href="#">目的地</a>
+		        </div>
+		        <div class="nav-items">
+		            <a href="#">旅行</a>
+		            <a href="#">定制旅行</a>
+		        </div>
+		    </div>
+		</nav>
+		<ul class="iteml-nav">
+		        <li>
+		            <a href="#">
+		                <span class="icon1"></span>
+		                <span>电话卡</span>
+		            </a>
+		        </li>
+		        <li>
+		            <a href="#">
+		                <span class="icon2"></span>
+		                <span>保险·签证</span>
+		            </a>
+		        </li>
+		        <li>
+		            <a href="#">
+		                <span class="icon3"></span>
+		                <span>外币兑换</span>
+		            </a>
+		        </li>
+		        <li>
+		            <a href="#">
+		                <span class="icon4"></span>
+		                <span>购物</span>
+		            </a>
+		        </li>
+		        <li>
+		            <a href="#">
+		                <span class="icon5"></span>
+		                <span>当地向导</span>
+		            </a>
+		        </li>
+		        <li>
+		            <a href="#">
+		                <span class="icon6"></span>
+		                <span>自由行</span>
+		            </a>
+		        </li>
+		        <li>
+		            <a href="#">
+		                <span class="icon7"></span>
+		                <span>境外玩乐</span>
+		            </a>
+		        </li>
+		        <li>
+		            <a href="#">
+		                <span class="icon8"></span>
+		                <span>礼品卡</span>
+		            </a>
+		        </li>
+		        <li>
+		            <a href="#">
+		                <span class="icon9"></span>
+		                <span>信用卡</span>
+		            </a>
+		        </li>
+		        <li>
+		            <a href="#">
+		                <span class="icon10"></span>
+		                <span>更多</span>
+		            </a>
+		        </li>
+		    </ul>
+			
+			<div class="focus1">
+				<a href="#">
+			        <img src="img/hot1.png">
+				</a>
+				<a href="#" class="btn-benefit">获取更多福利 ></a>
+			</div>
+			
+			<div class="noe">
+				<div class="noe1">
+					<a href="#">
+					    <img src="img/pic1.jpg">
+					</a>
+				</div>
+				<div class="noe2">
+					<a href="#">
+					    <img src="img/pic2.jpg">
+					</a>
+				</div>
+			</div>
+			
+			<div class="tow">
+				<div class="tow1">
+					<a href="#">
+					    <img src="img/pic3.jpg">
+					</a>
+				</div>
+				<div class="tow2">
+					<a href="#">
+					    <img src="img/pic4.jpg">
+					</a>
+				</div>
+			</div>
+			
+			<div class="thwee">
+				<div class="thwee1">
+					<a href="#">
+					    <img src="img/pic5.jpg">
+					</a>
+				</div>
+				<div class="thwee2">
+					<a href="#">
+					    <img src="img/pic6.jpg">
+					</a>
+				</div>
+			</div>
 </body>
-
 </html>
