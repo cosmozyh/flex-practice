@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>旅游首页 - 景点酒店机票一站式服务</title>
     <script type="text/javascript">
         document.addEventListener('plusready', function () {
             // console.log("所有的plus api 都可以使用了");
@@ -19,12 +19,12 @@
 <body>
     <div class="search-index">
         <div class="search">
-            <input type="text" placeholder="搜索：目的地/酒店/景点/航班">
+            <input type="text" placeholder="搜索：目的地/酒店/景点/航班" aria-label="请输入目的地、酒店、景点或航班进行搜索">
         </div>
         <a class="user" href="#">我的</a>
     </div>
     <div class="focus">
-        <img src="./upload/focus.jpg" />
+        <img src="./upload/focus.jpg" alt="焦点图">
     </div>
 
     <ul class="local-nav">
@@ -73,9 +73,6 @@
             </div>
         </div>
     </nav>
-
-
-
 </body>
 
 </html>
